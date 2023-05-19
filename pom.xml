@@ -22,7 +22,13 @@
            </dependency>
        </dependencies>
        <!-- end::joda[] -->
-       
+     <distributionManagement>
+        <repository>
+          <id>github</id>
+          <name>GitHub Packages</name>
+          <url>https://maven.pkg.github.com/santhosh955/java-hello-world-with-maven</url>
+        </repository>
+     </distributionManagement>
     <build>
         <plugins>
             <plugin>
